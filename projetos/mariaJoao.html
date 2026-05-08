@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   
+  <!-- Topo da página -->
+    <header>
+        <div>
+            <h1>Murteira & Reis - Unipessoal, Lda</h1>
+            <p>Serralharia Industrial | Estruturas Metálicas | Engenharia Civil</p>
+        </div>
+    </header>
+ 
+    <!-- Navegação principal -->
+    <nav role="navigation" aria-label="Navegação principal">
+        <ul>
+            <li><a href="#sobre">Sobre a Empresa</a></li>
+            <li><a href="#servicos">Serviços</a></li>
+            <li><a href="#atividade">Área de Atividade</a></li>
+            <li><a href="contactos.html">Contactos</a></li>
+        </ul>
+    </nav>
+ 
+    <!-- Conteúdo principal -->
+    <main>
+ 
+        <!-- Secção Sobre -->
+        <section id="sobre">
+            <h2>Sobre a Empresa</h2>
+ 
+            <article>
+                <h3>Quem Somos</h3>
+                <p>
+                    A <strong>Murteira & Reis Lda</strong> é uma empresa constituída em
+                    <time datetime="2002-02-01">01 de fevereiro de 2002</time>,
+                    com sede em Santa Maria da Feira.
+                </p>
+ 
+                <p>
+                    A empresa dedica-se à área da <mark>serralharia industrial</mark>,
+                    desenvolvendo soluções no âmbito das <strong>estruturas metálicas</strong>,
+                    apoio à <strong>engenharia civil</strong> e outras atividades
+                    especializadas de construção.
+                </p>
+ 
+                <p>
+                    Com uma base assente na experiência, rigor e compromisso com a qualidade,
+                    a Murteira & Reis procura responder às necessidades dos seus clientes
+                    com soluções seguras, funcionais e ajustadas a cada projeto.
+                </p>
+            </article>
+        </section>
+ 
+        <hr>
+ 
+        <!-- Secção Serviços -->
+        <section id="servicos">
+            <h2>Os Nossos Serviços</h2>
+ 
+            <article>
+                <h3>Serviços Prestados</h3>
+                <ul>
+                    <li>Fabricação de estruturas metálicas</li>
+                    <li>Execução de partes de estruturas metálicas</li>
+                    <li>Trabalhos de serralharia industrial</li>
+                    <li>Apoio a projetos de engenharia civil</li>
+                    <li>Soluções metálicas para construção</li>
+                    <li>Execução de trabalhos especializados em obra</li>
+                </ul>
+            </article>
+ 
+            <article>
+                <h3>Compromisso com a Qualidade</h3>
+                <p>
+                    A empresa trabalha com foco na <strong>resistência</strong>,
+                    <strong>segurança</strong>, <strong>precisão</strong> e
+                    <strong>cumprimento dos prazos</strong>, assegurando um serviço
+                    de confiança para clientes particulares e empresariais.
+                </p>
+            </article>
+        </section>
+ 
+        <hr>
+ 
+        <!-- Secção Atividade -->
+        <section id="atividade">
+            <h2>Área de Atividade</h2>
+ 
+            <article>
+                <h3>Classificação Empresarial</h3>
+                <p>
+                    A atividade principal da Murteira & Reis enquadra-se no CAE:
+                </p>
+ 
+                <p>
+                    <strong>CAE 25110</strong> – Fabricação de estruturas e partes de estruturas metálicas.
+                </p>
+ 
+                <p>
+                    Desenvolve ainda a sua atividade no âmbito de
+                    <strong>outras atividades especializadas de construção diversas</strong>.
+                </p>
+            </article>
+ 
+            <article>
+                <h3>Setores de Intervenção</h3>
+                <ul>
+                    <li>Construção civil</li>
+                    <li>Obras metálicas</li>
+                    <li>Projetos industriais</li>
+                    <li>Estruturas de suporte e reforço</li>
+                </ul>
+            </article>
+        </section>
+ 
+        <hr>
+ 
+        <!-- Secção Informações -->
+        <section id="informacoes">
+            <h2>Informações da Empresa</h2>
+ 
+            <article>
+                <h3>Dados Empresariais</h3>
+                <p><strong>Nome:</strong> Murteira & Reis Lda</p>
+                <p><strong>Constituição:</strong> 01/02/2002</p>
+                <p><strong>Capital Social:</strong> € 5.000,00</p>
+                <p><strong>Localização:</strong> Santa Maria da Feira</p>
+            </article>
+        </section>
+ 
+        <hr>
+ 
+        <!-- FORMULÁRIO DE CONTACTO -->
+ 
+        <section id="registo">
+    <h2>Registo de Interesse</h2>
+ 
+    <article>
+        <h3>Pedido de Contacto Comercial</h3>
+ 
+        <p>
+            Preencha o formulário abaixo para ser contactado pela nossa equipa.
+            Os campos assinalados como obrigatórios devem ser preenchidos.
+        </p>
+ 
+        <form action="#" method="post">
+ 
+            <!-- Nome -->
+            <div>
+                <label for="nome">Nome do Cliente:</label>
+                <input type="text" id="nome" name="nome" placeholder="Introduza o seu nome completo" required>
+            </div>
+ 
+            <!-- Telefone -->
+            <div>
+                <label for="telefone">Contacto Telefónico (obrigatório):</label>
+                <input type="tel" id="telefone" name="telefone" placeholder="Ex: 912 345 678" required pattern="[0-9]{9}">
+                <small>Será utilizado para validação e contacto posterior.</small>
+            </div>
+ 
+            <!-- Email -->
+            <div>
+                <label for="email">Contacto Email:</label>
+                <input type="email" id="email" name="email" placeholder="exemplo@email.com">
+            </div>
+ 
+            <!-- Tipo de interesse -->
+            <div>
+                <label>Interesse no contacto:</label><br>
+ 
+                <input type="checkbox" id="gradeamento" name="interesse" value="gradeamento">
+                <label for="gradeamento">Gradeamento</label><br>
+ 
+                <input type="checkbox" id="portao" name="interesse" value="portao">
+                <label for="portao">Portão</label><br>
+ 
+                <input type="checkbox" id="outras" name="interesse" value="outras">
+                <label for="outras">Outras Peças</label>
+            </div>
+ 
+            <!-- Descrição -->
+            <div>
+                <label for="descricao">Descrição:</label>
+                <textarea id="descricao" name="descricao" rows="5" placeholder="Descreva o que pretende..."></textarea>
+            </div>
+ 
+            <!-- Botão -->
+            <div>
+                <button type="submit">Submeter Pedido</button>
+            </div>
+ 
+        </form>
+    </article>
+</section>
+ 
+ 
+        <!-- Secção Contactos -->
+        <section id="contactos">
+            <h2>Contactos</h2>
+ 
+            <article>
+                <h3>Fale Connosco</h3>
+                <address>
+                    <p><strong>Morada:</strong> R. Bodega 47, 4520-706 Ferral</p>
+                    <p><strong>Telefone:</strong> <a href="tel:+351256801406">256 801 406</a></p>
+                </address>
+                <p>
+                    Para mais informações sobre os nossos serviços ou pedidos de orçamento,
+                    entre em contacto connosco.
+                </p>
+            </article>
+        </section>
+    </main>
+    <!-- Rodapé -->
+    <footer>
+        <p>&copy; 2026 Murteira & Reis Lda. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>

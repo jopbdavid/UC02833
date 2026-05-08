@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+        <!-- Topo da página -->
+<header>
+    <div>
+        <h1>HTML Semântico</h1>
+        <p>Estrutura para web moderna</p>
+    </div>
+</header>
+
+<nav role="navigation" aria-label="Navegação principal">
+    <ul>
+        <!-- a - hiperligação href -> link externo ou para um link interno -->
+        <li><a href="https://www.google.com">Conceitos</a></li> <!--Link externo página na internet -->
+        <li><a href="elementos.html">Elementos</a></li> <!-- Link interno para uma página diferente do site-->
+        <li><a href="#Estrutura">Estrutura</a></li> <!-- Link interno para uma secção da própria página-->
+    </ul>
+</nav>
+
+<!-- Conteúdo principal: deve existir apenas um <main> por página -->
+<main>
+    <div>
+     <!-- section agrupa conteúdos relacionados -->
+        <section id="Conceitos">
+            <h2>Conceitos Fundamentais</h2>
+                    <article>
+                        <h3>O que é HTML Semântico?</h3>
+                        <p>HTML semântico refere-se ao uso de elementos HTML que têm <mark>significado e propósito específico</mark>, não apenas aparência visual. Estes elementos comunicam a estrutura e o significado do conteúdo tanto para desenvolvedores quanto para tecnologias assistivas.</p>
+                    </article>
+
+                <div>
+                    <h4>✅ Benefícios do HTML Semântico:</h4>
+                    <ul>
+                        <li><strong>SEO melhorado:</strong> Motores de busca compreendem melhor o conteúdo</li>
+                        <li><strong>Acessibilidade:</strong> Leitores de ecrã navegam mais facilmente</li>
+                        <li><strong>Manutenibilidade:</strong> Código mais claro e organizad</li>
+                        <li><strong>Performance:</strong> Carregamento e processamento mais eficiente</li>
+                        <li><strong>Compatibilidade:</strong> Melhor suporte em diferentes dispositivos</li>
+                    </ul>
+                </div>
+        </section>
+        <section>
+            <article>
+                <h3>Elementos de Estrutura</h3>
+                <h4>&lt;header&gt;</h4> <!--Entidade HTML - Caracteres reservados - São códigos especiais para mostrar caracteres que o HTML não consegue mostrar diretamente.  -->
+                <!-- & - &amp; " - &quot; &copy; -->
+                <p><strong>Propósito:</strong> Cabeçalho de página ou seção</p>
+                <p>&nbsp; &copy; &nbsp;</p>
+                <p>&euro;</p>
+                <p>&hearts;</p>
+                <p><strong>Conteúdo típico:</strong> Logo, título, navegação principal</p>
+            </article>
+
+        </section>
+    </div>
+</main>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<hr>
+
+
+<section id="Estrutura" >
+    <h2>Aqui é a secção de estrutura</h2>
+</section>
+<p></p>
+</body>
+</html>

@@ -1,0 +1,58 @@
+html{
+    font-size: 40px;
+}
+
+/*   h1 é o seletor       */
+h1 { 
+    color: rgb(153, 255, 0);
+    font-size: 2em;
+    font-family:"Orbitron", sans-serif;
+ }
+/* color:blue é uma declaração */
+/* tudo isto é uma regra css */
+
+img{
+    width: 200px;
+    height: auto;
+}
+
+input{
+    border: 1px dashed blue;
+}
+
+input{
+    border: 2px solid red;
+}
+
+/* # Selecionar um elemento HTML geral */
+
+input[type="text"]
+{
+    border: 2px solid red;
+    border-color: red;
+    border-style: solid;
+    border-width: 2px;
+}
+
+/* .class Selecionar uma classe */
+.zeca{
+    font-size: 16px;
+    width: 80%;
+    border: 1px solid red;
+}
+
+/* # Selecionar um id */
+
+#teste1{
+    font-size: 2em;
+    text-align: center;
+}
+#teste2{
+    font-size: 1em;
+    width: 50%;
+    border: 1px solid blue;
+}
+#teste3{
+    font-size: 1rem;
+}
+
